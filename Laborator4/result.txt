@@ -1,0 +1,103 @@
+Executing task: C:\Users\student\.platformio\penv\Scripts\platformio.exe device monitor 
+
+--- Terminal on COM8 | 115200 8-N-1
+--- Available filters and text transformations: colorize, debug, default, direct, esp32_exception_decoder, hexlify, log2file, nocontrol, printable, send_on_enter, time
+--- More details at https://bit.ly/pio-monitor-filters
+--- Quit: Ctrl+C | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H   
+I (9469) wifi:<ba-add>idx:0 (ifx:0, c6:ad:34:10:1b:52), tid:0, ssn:10, winSize:64
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6940
+ho 0 tail 12 room 4
+load:0x40078000,len:15988
+load:0x40080400,len:3876
+entry 0x4008064c
+␛[0;32mI (29) boot: ESP-IDF 5.0.2 2nd stage bootloader␛[0m
+␛[0;32mI (29) boot: compile time 17:03:28␛[0m
+␛[0;32mI (29) boot: chip revision: v3.0␛[0m
+␛[0;32mI (32) boot.esp32: SPI Speed      : 40MHz␛[0m
+␛[0;32mI (37) boot.esp32: SPI Mode       : DIO␛[0m
+␛[0;32mI (41) boot.esp32: SPI Flash Size : 4MB␛[0m
+␛[0;32mI (46) boot: Enabling RNG early entropy source...␛[0m
+␛[0;32mI (51) boot: Partition Table:␛[0m
+␛[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length␛[0m
+␛[0;32mI (62) boot:  0 nvs              WiFi data        01 02 00009000 00006000␛[0m
+␛[0;32mI (70) boot:  1 phy_init         RF data          01 01 0000f000 00001000␛[0m
+␛[0;32mI (77) boot:  2 factory          factory app      00 00 00010000 00100000␛[0m
+␛[0;32mI (85) boot: End of partition table␛[0m
+␛[0;32mI (89) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1ec34h (126004) map␛[0m
+␛[0;32mI (145) esp_image: segment 1: paddr=0002ec5c vaddr=3ffb0000 size=013bch (  5052) load␛[0m
+␛[0;32mI (148) esp_image: segment 2: paddr=00030020 vaddr=400d0020 size=86a28h (551464) map␛[0m
+␛[0;32mI (362) esp_image: segment 3: paddr=000b6a50 vaddr=3ffb13bc size=01fb8h (  8120) load␛[0m
+␛[0;32mI (365) esp_image: segment 4: paddr=000b8a10 vaddr=40080000 size=153c0h ( 86976) load␛[0m
+␛[0;32mI (416) boot: Loaded app from partition at offset 0x10000␛[0m␛[0;32mI (416) boot: Disabling RNG early entropy source...␛[0m      
+␛[0;32mI (427) cpu_start: Pro cpu up.␛[0m
+␛[0;32mI (427) cpu_start: Starting app cpu, entry point is 0x40081330␛[0m
+␛[0;32mI (0) cpu_start: App cpu up.␛[0m
+␛[0;32mI (444) cpu_start: Pro cpu start user code␛[0m
+␛[0;32mI (444) cpu_start: cpu freq: 160000000 Hz␛[0m
+␛[0;32mI (444) cpu_start: Application information:␛[0m
+␛[0;32mI (449) cpu_start: Project name:     Laborator4␛[0m
+␛[0;32mI (454) cpu_start: App version:      1␛[0m
+␛[0;32mI (458) cpu_start: Compile time:     Mar 11 2025 16:55:32␛[0m␛[0;32mI (464) cpu_start: ELF file SHA256:  212d813109fbe9b7...␛[0m
+␛[0;32mI (470) cpu_start: ESP-IDF:          5.0.2␛[0m
+␛[0;32mI (475) cpu_start: Min chip rev:     v0.0␛[0m
+␛[0;32mI (480) cpu_start: Max chip rev:     v3.99 ␛[0m
+␛[0;32mI (485) cpu_start: Chip rev:         v3.0␛[0m
+␛[0;32mI (490) heap_init: Initializing. RAM available for dynamic allocation:␛[0m
+␛[0;32mI (497) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM␛[0m␛[0;32mI (503) heap_init: At 3FFB7740 len 000288C0 (162 KiB): DRAM␛[0m
+␛[0;32mI (509) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM␛[0m
+␛[0;32mI (515) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM␛[0m
+␛[0;32mI (522) heap_init: At 400953C0 len 0000AC40 (43 KiB): IRAM␛[0m
+␛[0;32mI (529) spi_flash: detected chip: generic␛[0m
+␛[0;32mI (533) spi_flash: flash io: dio␛[0m
+␛[0;32mI (538) cpu_start: Starting scheduler on PRO CPU.␛[0m        
+␛[0;32mI (0) cpu_start: Starting scheduler on APP CPU.␛[0m
+␛[0;32mI (608) wifi station: ESP_WIFI_MODE_STA␛[0m
+I (628) wifi:wifi driver task: 3ffbf768, prio:23, stack:6656, core=0␛[0;32mI (628) system_api: Base MAC address is not set␛[0m
+␛[0;32mI (628) system_api: read default base MAC address from EFUSE␛[0m
+I (648) wifi:wifi firmware version: 57982fe
+I (648) wifi:wifi certification version: v7.0
+I (648) wifi:config NVS flash: enabled
+I (648) wifi:config nano formating: disabled
+I (648) wifi:Init data frame dynamic rx buffer num: 32
+I (658) wifi:Init management frame dynamic rx buffer num: 32        
+I (658) wifi:Init management short buffer num: 32
+I (668) wifi:Init dynamic tx buffer num: 32
+I (668) wifi:Init static rx buffer size: 1600
+I (678) wifi:Init static rx buffer num: 10
+I (678) wifi:Init dynamic rx buffer num: 32
+␛[0;32mI (688) wifi_init: rx ba win: 6␛[0m
+␛[0;32mI (688) wifi_init: tcpip mbox: 32␛[0m
+␛[0;32mI (688) wifi_init: udp mbox: 6␛[0m
+␛[0;32mI (698) wifi_init: tcp mbox: 6␛[0m
+␛[0;32mI (698) wifi_init: tcp tx win: 5744␛[0m
+␛[0;32mI (698) wifi_init: tcp rx win: 5744␛[0m
+␛[0;32mI (708) wifi_init: tcp mss: 1440␛[0m
+␛[0;32mI (708) wifi_init: WiFi IRAM OP enabled␛[0m
+␛[0;32mI (718) wifi_init: WiFi RX IRAM OP enabled␛[0m
+␛[0;32mI (748) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07␛[0m
+I (848) wifi:mode : sta (24:d7:eb:bc:3b:ec)
+I (848) wifi:enable tsf
+␛[0;32mI (848) wifi station: wifi_init_sta finished.␛[0m
+I (888) wifi:new:<1,1>, old:<1,0>, ap:<255,255>, sta:<1,1>, prof:1
+I (2008) wifi:state: init -> auth (b0)
+I (2028) wifi:state: auth -> assoc (0)
+I (2048) wifi:state: assoc -> run (10)
+I (2058) wifi:connected with lab-iot, aid = 5, channel 1, 40U, bssid = c6:ad:34:10:1b:52
+I (2058) wifi:security: WPA2-PSK, phy: bgn, rssi: -71
+I (2068) wifi:pm start, type: 1
+
+I (2088) wifi:<ba-add>idx:0 (ifx:0, c6:ad:34:10:1b:52), tid:0, ssn:3, winSize:64
+I (2118) wifi:AP's beacon interval = 102400 us, DTIM period = 1     
+␛[0;32mI (3068) esp_netif_handlers: sta ip: 192.168.89.48, mask: 255.255.255.0, gw: 192.168.89.1␛[0m
+␛[0;32mI (3068) wifi station: got ip:192.168.89.48␛[0m
+␛[0;32mI (3068) wifi station: connected to ap SSID:lab-iot password:IoT-IoT-IoT␛[0m
+Query A: esp32-craiu.local␛[0;32mI (3078) wifi station: Socket created␛[0m
+␛[0;32mI (3078) wifi station: Socket bound, port 10001␛[0m
+192.168.89.39␛[0;32mI (3458) wifi station: Query PTR: _services._dns-sd._udp.local␛[0m
+␛[0;33mW (6478) wifi station: No results found!␛[0m
