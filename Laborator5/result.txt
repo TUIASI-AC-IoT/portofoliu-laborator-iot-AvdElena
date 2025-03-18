@@ -1,0 +1,47 @@
+ *  Executing task in folder Laborator5: C:\Users\student\.platformio\penv\Scripts\platformio.exe device monitor 
+
+--- Terminal on COM12 | 115200 8-N-1
+--- Available filters and text transformations: colorize, debug, default, direct, esp32_exception_decoder, hexlify, log2file, nocontrol, printable, send_on_enter, time
+--- More details at https://bit.ly/pio-monitor-filters       
+--- Quit: Ctrl+C | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H
+␛[0;32mI (13637) esp_netif_handlers: sta ip: 192.168.89.40, mask: 255.255.255.0, gw: 192.168.89.1␛[0m
+␛[0;32mI (13637) wifi station: got ip:192.168.89.40␛[0m      
+␛[0;32mI (13637) wifi station: connected to ap SSID:lab-iot password:IoT-IoT-IoT␛[0m
+␛[0;32mI (13647) wifi softAP: ESP_WIFI_MODE_AP␛[0m
+␛[0;32mI (13647) wifi_init: rx ba win: 6␛[0m      
+␛[0;32mI (13657) wifi_init: tcpip mbox: 32␛[0m    
+␛[0;32mI (13657) wifi_init: udp mbox: 6␛[0m       
+␛[0;32mI (13657) wifi_init: tcp mbox: 6␛[0m
+␛[0;32mI (13667) wifi_init: tcp tx win: 5744␛[0m
+␛[0;32mI (13667) wifi_init: tcp rx win: 5744␛[0m
+␛[0;32mI (13677) wifi_init: tcp mss: 1440␛[0m
+␛[0;32mI (13677) wifi_init: WiFi IRAM OP enabled␛[0m
+␛[0;32mI (13687) wifi_init: WiFi RX IRAM OP enabled␛[0m      
+I (13687) wifi:state: run -> init (0)
+I (13687) wifi:pm stop, total sleep time: 1179511 us / 30533 
+3 us
+
+I (13697) wifi:<ba-del>idx
+I (13697) wifi:new:<1,0>, old:<1,1>, ap:<255,255>, sta:<1,1>, prof:6
+I (13707) wifi:mode : softAP (24:d7:eb:bb:6f:59)
+I (13717) wifi:Total power save buffer number: 16
+I (13717) wifi:Init max length of beacon: 752/752
+I (13717) wifi:Init max length of beacon: 752/752
+␛[0;32mI (13737) wifi station: retry to connect to the AP␛[0m␛[0;32mI (13737) wifi station: connect to the AP fail␛[0m    
+␛[0;32mI (14857) wifi softAP: Event: SoftAP started␛[0m
+I (14867) wifi:Total power save buffer number: 16
+␛[0;32mI (14877) wifi softAP: Event: SoftAP started␛[0m
+I (14877) wifi:Set ps type: 0
+
+␛[0;32mI (14877) wifi softAP: wifi_init_softap finished. SSID:ESP32-prov-avdei password:password channel:6␛[0m
+I (38057) wifi:new:<6,0>, old:<6,1>, ap:<6,1>, sta:<255,255>, prof:6
+I (38057) wifi:station: 8e:0e:eb:71:6a:ae join, AID=1, bgn, 20
+␛[0;32mI (38077) wifi softAP: station 8e:0e:eb:71:6a:ae join, AID=1␛[0m
+I (38187) wifi:<ba-add>idx:2 (ifx:1, 8e:0e:eb:71:6a:ae), tid:0, ssn:2, winSize:64
+␛[0;32mI (39317) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2␛[0m
+I (41617) wifi:<ba-add>idx:3 (ifx:1, 8e:0e:eb:71:6a:ae), tid:1, ssn:0, winSize:64
+I (58217) wifi:station: 8e:0e:eb:71:6a:ae leave, AID = 1, bss_flags is 658547, bss:0x3ffb91d0
+I (58217) wifi:new:<6,0>, old:<6,0>, ap:<6,1>, sta:<255,255>, prof:6
+I (58227) wifi:<ba-del>idx
+I (58227) wifi:<ba-del>idx
+␛[0;32mI (58227) wifi softAP: station 8e:0e:eb:71:6a:ae leave, AID=1␛[0m
